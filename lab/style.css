@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #cfd8dc;
+    margin: 0;
+    padding: 0;
+    color: #333;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #ffffff;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  header h1 {
+    font-size: 20px;
+  }
+  
+  header nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+  }
+  
+  .intro {
+    text-align: center;
+    padding: 50px 20px;
+  }
+  
+  .intro h2 {
+    font-size: 50px;
+    margin: 10px 0;
+  }
+  
+  .signature {
+    width: 150px;
+    margin: 20px auto;
+  }
+  
+  .intro .highlight {
+    color: blue;
+    text-decoration: underline;
+  }
+  
+  .contact-links {
+    margin-top: 20px;
+  }
+  
+  .contact-links a {
+    margin: 5px;
+    text-decoration: none;
+    padding: 5px 10px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    color: #333;
+  }
+  
+  .studies {
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  .studies h3 {
+    margin-bottom: 30px;
+    font-size: 24px;
+  }
+  
+  .study-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .study-item {
+    text-align: center;
+    background: #e3f2fd;
+    padding: 20px;
+    border-radius: 10px;
+    width: 150px;
+  }
+  
+  .study-item img {
+    margin-top: 10px;
+    width: 100px;
+  }
+  
