@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/d26473a74e.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo" width="200px">
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#learning">Learning</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>CSE Student</p>
+                <h1>Hi, I'm <span>Deepak Rathod</span> <br> From WCE</h1>
+            </div>
+        </div>
+    </div>
+
+    <!-- ----------------about------------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.jpeg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <br>
+                    <p class="qwe"> I'm Deepak Rathod, a student at Walchand College of Engineering.
+                        Passionate about coding, software development, and problem-solving,
+                        I actively participate in technical events and leadership roles.
+                        As the treasurer of ACSES and a core member of ACM, I enjoy organizing coding competitions and
+                        workshops.
+                        Beyond academics, I love jogging and exploring new technologies.</p>
+                    <br>
+                    <p class="qwe">I love what code does, but i don’t like coding.
+                        in walchand’s embrace, deepak weaves dreams with purpose and light,
+                        balancing learning, leadership, and love in his upward flight. </p>
+
+                    <br><br><br>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('achivements')">Achivements</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                            <li><span>Web Development</span><br>Web app Development</li>
+                            <li><span>App Development</span><br>Building Android/iOS apps</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="achivements">
+                        <ul>
+                            <li><span>2012</span><br>2nd Rank in HFI Talent Search Scholarship</li>
+                            <li><span>2013</span><br>Little Scientist Award</li>
+                            <li><span>2022</span><br>Topper of Collage in HSC</li>
+                            <li><span>2022</span><br>Got Inspire Scholarship</li>
+                            <li><span>2023</span><br>Qualified Jee Advanced </li>
+                            <li><span>2023</span><br>Passed MHT-CET with 99%ile</li>
+                            <li><span>2024</span><br>Got Reliance Scholarship</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2023-27</span><br>Walchand college of Engineering</li>
+                            <li><span>2020-22</span><br>Babarao Naik Highschool</li>
+                            <li><span>2013-2020</span><br>Oxford The Global School</li>
+                            <li><span>2008-2013</span><br>Sunrise English School</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ----------------services------------------- -->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title"> My Services</h1>
+            <div class="services-list">
+                <div>
+                    <h2>ACSES</h2>
+                    <p>Assistant treasurer</p>
+                    <br>
+                    <p>Successful Events Managed by me</p>
+                    <ul>
+                        <li>TechHuman</li>
+                        <li>Cpp BootCamp</li>
+                    </ul>
+                    <a href="#">Learn more</a>
+                </div>
+
+                <div>
+                    <h2>ACM</h2>
+                    <p>Assistant treasurer</p>
+                    <br>
+                    <p>Successful Events Managed by me</p>
+                    <ul>
+                        <li>DSA Launchpad</li>
+                        <li>Hackathon</li>
+                        <li>RSc</li>
+                        <li>Jagruti</li>
+
+                    </ul>
+                    <a href="#">Learn more</a>
+                </div>
+
+                <div>
+                    <h2>STOCK MARKET ADVISOR</h2>
+                    <p>analyze stock market treands </p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- -----------------learning------------------- -->
+    <div id="learning">
+        <div class="container">
+            <h1 class="sub-title"> Learnings</h1>
+            <div class="Learnings-list">
+                <div class="Learnings">
+                    <img src="images/web dev.webp">
+                    <div class="layer">
+                        <h3><b>Web Development</b></h3>
+                        <p> currently learning from Apna-college</p>
+                    </div>
+                </div>
+                <div class="Learnings">
+                    <img src="images/DSA.webp">
+                    <div class="layer">
+                        <h3><b>Data Structure and Algorithm</b></h3>
+                        <p> currently learning from GeeksforGeeks</p>
+                    </div>
+                </div>
+                <div class="Learnings">
+                    <img src="images/ios dev.webp">
+                    <div class="layer">
+                        <h3><b>iOS Development</b></h3>
+                        <p> currently learning from Udemy</p>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+
+    <!-- ----------------contact------------------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fas fa-paper-plane"></i>dipak.rathod@walchandsangli.ac.in</p>
+                    <p><i class="fa-solid fa-phone"></i>9112433777</p>
+                    <div class="social-icons">
+                        <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://twitter.com/"><i class="fa-brands fa-twitter-square"></i></a>
+                        <a href="https://instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://linkedin.com/"><i class="fa-brands fa-linkedin"></i></i></a>
+                    </div>
+                    <a href="images/cv.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="copyright">
+            <p>Copyright @ Deepak. Made for the personal use</p>
+        </div>
+    </div>
+
+
+
+    <script>
+
+        var tablinks = document.getElementsByClassName('tab-links');
+        var tabcontents = document.getElementsByClassName('tab-contents');
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove('active-link');
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove('active-tab');
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+
+</body>
+
+</html>
